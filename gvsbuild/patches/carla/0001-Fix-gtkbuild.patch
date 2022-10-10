@@ -1,0 +1,24 @@
+From f54e26c9f7ca7ddc83a0ad1c63af04b550c55b39 Mon Sep 17 00:00:00 2001
+From: Alexandros Theodotou <alex@zrythm.org>
+Date: Thu, 6 Oct 2022 13:53:56 +0900
+Subject: [PATCH] fix gtkbuild
+
+---
+ Makefile | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/Makefile b/Makefile
+index e1b96c0e9..82d9dfc5b 100644
+--- a/Makefile
++++ b/Makefile
+@@ -807,7 +807,7 @@ ifneq ($(HAVE_PYQT),true)
+	# Remove gui files for non-gui build
+	rm $(DESTDIR)$(LIBDIR)/carla/carla-bridge-lv2-modgui
+ ifeq ($(CAN_GENERATE_LV2_TTL),true)
+-	rm $(DESTDIR)$(LIBDIR)/lv2/carla.lv2/carla-bridge-lv2-modgui
++	#rm $(DESTDIR)$(LIBDIR)/lv2/carla.lv2/carla-bridge-lv2-modgui
+ endif
+ endif
+
+--
+2.37.3

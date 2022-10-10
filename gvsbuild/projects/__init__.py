@@ -4,6 +4,7 @@ from gvsbuild.projects.adwaita_icon_theme import AdwaitaIconTheme
 from gvsbuild.projects.atk import Atk
 from gvsbuild.projects.boringssl import BoringSSL
 from gvsbuild.projects.cairo import Cairo
+from gvsbuild.projects.carla import CarlaGCC, CarlaMSVC
 from gvsbuild.projects.check_libs import CheckLibs
 from gvsbuild.projects.clutter import Clutter
 from gvsbuild.projects.cogl import Cogl
@@ -13,6 +14,7 @@ from gvsbuild.projects.dev_shell import DevShell
 from gvsbuild.projects.emeus import Emeus
 from gvsbuild.projects.enchant import Enchant
 from gvsbuild.projects.ffmpeg import Ffmpeg
+from gvsbuild.projects.fluidsynth import Fluidsynth
 from gvsbuild.projects.fontconfig import Fontconfig
 from gvsbuild.projects.freerdp import FreeRDP
 from gvsbuild.projects.freetype import Freetype
@@ -33,6 +35,7 @@ from gvsbuild.projects.gstreamer import (
 )
 from gvsbuild.projects.gtk import Gtk2, Gtk3, Gtk4
 from gvsbuild.projects.gtksourceview import GtkSourceView4, GtkSourceView5
+from gvsbuild.projects.guile import Guile3
 from gvsbuild.projects.harfbuzz import Harfbuzz
 from gvsbuild.projects.hicolor_icon_theme import HicolorIconTheme
 from gvsbuild.projects.icu import Icu
@@ -48,6 +51,7 @@ from gvsbuild.projects.libepoxy import Libepoxy
 from gvsbuild.projects.libffi import Libffi
 from gvsbuild.projects.libgxps import Libgxps
 from gvsbuild.projects.libjpeg_turbo import LibjpegTurbo
+from gvsbuild.projects.liblo import Liblo
 from gvsbuild.projects.libmicrohttpd import Libmicrohttpd
 from gvsbuild.projects.libpng import Libpng
 from gvsbuild.projects.libpsl import Libpsl
@@ -81,3 +85,4 @@ from gvsbuild.projects.win_iconv import WinIconv
 from gvsbuild.projects.wing import Wing
 from gvsbuild.projects.x264 import X264
 from gvsbuild.projects.zlib import Zlib
+from gvsbuild.projects.zstd import Zstd
